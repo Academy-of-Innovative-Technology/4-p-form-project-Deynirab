@@ -1,1 +1,24 @@
+body{
+  font-family:  "Lucida Console", "Courier New", monospace;
+}
 
+form{
+  border:solid 2px;
+  padding: 16px;
+  background-color: #5abbec;
+}
+
+h1 {
+    border: 5px solid lightskyblue
+}
+.form-structure{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.form-image{
+  background-image: 
+  url("https://www.cookedbyjulie.com/wp-content/uploads/2025/04/Detroit-style-pizza-four-500x500.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
